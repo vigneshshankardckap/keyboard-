@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    background-color:rgb(214, 228, 255);
+    
+}
+
+button {
+    height: 45px;
+    width: 60px;
+    margin: 5px;
+    padding: 3px;
+    font-size: 15px;
+    color:white;
+    background-color:black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 10px #999;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px rgb(255 29 29 / 50%);
+    opacity: 0.8;
+
+
+}
+button:hover{
+    cursor: pointer;
+    /* background-color:#0affe2; */
+    
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(212, 245, 234),
+        0 0 82px rgb(215, 241, 233),
+        0 0 92px rgb(207, 253, 238),
+        0 0 102px #0fa,
+        0 0 151px rgb(200, 247, 231);
+    animation: flicker 1.5s infinite alternate;
+}
+.buttons{
+    margin-left: 85px;
+}
+
+button:active {
+    background-color: 
+    #0acaff;
+    box-shadow: 0 5px #888888;
+    transform: translateY(5px);
+    color: black;
+}
+
+input {
+    width: 1050px;
+    height: 90px;
+    margin-left:90px;
+    font-size: 29px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #0acaff ;
+
+
+}
+
+h2 {
+    margin-left: 500px;
+    color: rgb(255, 82, 82);
+}
+
+.container {
+    background-image: linear-gradient( 109.6deg, rgb(165, 255, 250) 11.2%, rgb(138, 150, 255) 91.1% );
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 80%);
+    width: 100%;
+    margin-top: 70px;
+    background-color:white
+}
+
+.space {
+    width: 550px;
+}
+
+.Enter {
+    width: 80px;
+}
+
+.Backspace {
+    width: 100px;
+}
+
+.capsLock {
+    width: 80px;
+}
+
+.Shift {
+    width: 100px;
+}
+
+.Tab {
+    width: 100px;
+}
+
+.one {
+    width: 80px;
+}
+
+.two {
+    width: 80px;
+}
+
+.rowSix {
+    display: flex;
+    margin-left: 120px;
+}
+.show{
+    background-color: rgb(85, 255, 85);
+}
+.touch{
+
+    animation: keys_animation 0.5s forwards;
+}
+
+@keyframes keys_animation {
+    0%{
+        background-color: #e01c88;
+        color: antiquewhite;
+    }
+
+}
+p{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
